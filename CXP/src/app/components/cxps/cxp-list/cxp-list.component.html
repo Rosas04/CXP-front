@@ -1,0 +1,8 @@
+<div class="cxp-list">
+  <h2>Lista de Cuentas por Pagar</h2>
+  <ul>
+    <li *ngFor="let cxp of cxps">
+      {{ cxp.vendor }} - {{ cxp.amount }} - Vencimiento: {{ cxp.dueDate | date }}
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,6 @@
+<div *ngIf="cxp" class="cxp-detail">
+  <h3>Detalle de Cuenta por Pagar</h3>
+  <p><strong>Proveedor:</strong> {{ cxp.vendor }}</p>
+  <p><strong>Monto:</strong> {{ cxp.amount }}</p>
+  <p><strong>Fecha de Vencimiento:</strong> {{ cxp.dueDate | date }}</p>
+</div>
