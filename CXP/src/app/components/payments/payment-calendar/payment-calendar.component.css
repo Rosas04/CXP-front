@@ -1,0 +1,14 @@
+/* Estilos del componente del calendario de pagos */
+.payment-calendar {
+  width: 90%;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
