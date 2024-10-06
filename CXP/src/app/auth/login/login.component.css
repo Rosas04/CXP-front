@@ -1,0 +1,8 @@
+/* Estilos del componente login */
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+}
+button {
+  margin-top: 10px;
+}
